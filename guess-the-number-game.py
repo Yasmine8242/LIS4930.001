@@ -12,7 +12,7 @@ def guess_the_number():
 
     print("Welcome to the Guess the Number Game!")
     player_name = input("Enter your name: ")
-    print(f"Hi {player_name}! I have I have selected a number between 1 and 10.")
+    print(f"Hi {player_name}! I have selected a number between 1 and 10.")
     print("You have", max_attempts, "attempts to guess the correct number.")
 
     while attempts < max_attempts:
